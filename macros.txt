@@ -289,14 +289,6 @@ THIん||てぃん
 THUん||とぅん
 PTHIん||でぃん
 PTHUん||どぅん
-KHAん||ぁん
-KHIん||ぃん
-KHUん||ぅん
-KHEん||ぇん
-KHOん||ぉん
-KHYAん||ゃん
-KHYUん||ゅん
-KHYOん||ょん
 
 ; っ付け
 Aん-||あっ
@@ -427,14 +419,6 @@ THIん-||てぃっ
 THUん-||とぅっ
 PTHIん-||でぃっ
 PTHUん-||どぅっ
-KHAん-||ぁっ
-KHIん-||ぃっ
-KHUん-||ぅっ
-KHEん-||ぇっ
-KHOん-||ぉっ
-KHYAん-||ゃっ
-KHYUん-||ゅっ
-KHYOん-||ょっ
 
 ; 長音
 A-||あー
@@ -569,14 +553,6 @@ THI-||てぃー
 THU-||とぅー
 PTHI-||でぃー
 PTHU-||どぅー
-KHA-||ぁー
-KHI-||ぃー
-KHU-||ぅー
-KHE-||ぇー
-KHO-||ぉー
-KHYA-||ゃー
-KHYU-||ゅー
-KHYO-||ょー
 
 ; 二重母音 い付け
 AI||あい
@@ -690,13 +666,6 @@ PREI||ふぇい
 PROI||ふぉい
 THUI||とぅい
 PTHUI||どぅい
-KHAI||ぁい
-KHUI||ぅい
-KHEI||ぇい
-KHOI||ぉい
-KHYAI||ゃい
-KHYUI||ゅい
-KHYOI||ょい
 
 ; 二重母音 う付け
 AU||あう
@@ -800,14 +769,10 @@ PREU||ふぇう
 PROU||ふぉう
 THIU||てぃう
 PTHIU||でぃう
-KHAU||ぁう
-KHIU||ぃう
-KHEU||ぇう
-KHOU||ぉう
-KHYAU||ゃう
-KHYOU||ょう
 
 ; 二重母音 え付け
+
+; その他
 
 ん||ん
 ん-||っ
