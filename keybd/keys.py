@@ -45,7 +45,7 @@ for line in tqdm(datas):
     if '||' in line:
         line = line.replace('\n', '')
         key, value = line.split('||')
-        print(line)
+        # print(line)
 
         consonant, vowel, special = '', '', ''
         for letter in CONSONANT:
@@ -58,6 +58,6 @@ for line in tqdm(datas):
             if letter in key:
                 special += letter
 
-        MACRO_DATA[''.join(sorted(consonant))+''.join(sorted(vowel))+''.join(sorted(special))] = value
+        MACRO_DATA[consonant+vowel+special] = value
 
-print(MACRO_DATA)
+# print(MACRO_DATA)
