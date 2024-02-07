@@ -8,24 +8,24 @@ KEY_ALL: str = KEY_LOWER + KEY_UPPER
 KEY_MOVE: list[Key] = [Key.up, Key.down, Key.left, Key.right, Key.home, Key.end]
 
 KEY_USED: list[str] = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 
-                            'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', "'", 
-                                             'c', 'v',   'n', 'm']
+                       'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', 
+                                     'c', 'v',   'n', 'm']
 
 KEY_BLOCKED: list[str] = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[', ']', 
                           'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', "'", 
                                             'c', 'v',    'n', 'm']
 
-KEY_TRANSLATION: dict[str] = {'q': '1', 'w': '2', 'e': '3', 'r': '4', 't': '5', 'y': '6', 'u': '7', 'i': '8', 'o': '9', 'p': '0', 
-                                   'a': 'P', 's': 'S', 'd': 'K', 'f': 'T', 'g': 'H', 'h': 'E', 'j': 'A', 'k': 'O', 'l': 'I', ';': 'U', "'": '-', 
-                                                                'c': 'R', 'v': 'N',   'n': 'ん', 'm': 'Y'}
+KEY_TRANSLATION: dict[str] = {'q': 'p', 'w': 's', 'e': 't', 'r': 'k', 't': 'h', 'y': 'u', 'u': 'a', 'i': 'o', 'o': 'i', 'p': 'e', 
+                              'a': 'P', 's': 'S', 'd': 'T', 'f': 'K', 'g': 'H', 'h': 'U', 'j': 'A', 'k': 'O', 'l': 'I', ';': 'E', 
+                                                 'c': 'Y', 'v': 'N',   'n': 'ん', 'm': 'っ'}
 
-KEY_CONSONANT: list[str] = ['a', 's', 'd', 'f', 'g', 'c', 'v']
-KEY_VOWEL: list[str] = ['m', 'h', 'j', 'k', 'l', ';']
-KEY_SPECIAL: list[str] = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'n', "'"]
+KEY_CONSONANT: list[str] = ['a', 'q', 's', 'w', 'd', 'e', 'f', 'r', 'g', 't', 'v']
+KEY_VOWEL: list[str] = ['c', 'h', 'y', 'j', 'u', 'k', 'i', 'l', 'o', ';', 'p']
+KEY_SPECIAL: list[str] = ['n', "m"]
 
-CONSONANT: str = 'PSKTHRN'
-VOWEL: str = 'YEAOIU'
-SPECIAL: str = '1234567890ん-'
+CONSONANT: str = 'PpSsTtKkHhN'
+VOWEL: str = 'YyUuAaOoIiEe'
+SPECIAL: str = 'んっ'
 
 CHO_TRANSLATION: dict[str] = None
 
